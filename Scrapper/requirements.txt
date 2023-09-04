@@ -1,0 +1,21 @@
+1. Python ( 3.5 or higher version) 
+2. Jupyter Notebook 
+3. Libraries:
+    a. Pandas           # to read and write dataframes
+    b. BeautifulSoup4   # to parse HTML and XML documents 
+    c. Requests         # to send HTTP requests 
+    d. CSV              # to read and write CSV files
+    e. LXML             # to parse HTML and XML documents
+    f. fake_useragent   # to generate fake user agents to avoid getting blocked while scraping
+# If you get a warning/error while sending requests, install the following library as well
+    g. Urllib3          # to remove warnings while sending HTTP requests 
+
+We can use `pip` command to install these libraries. 
+
+`pip install pandas`
+`pip install bs4`
+`pip install requests`
+`pip install csv`
+`pip install lxml`
+`pip install urllib3`
+`pip install fake_useragent`
